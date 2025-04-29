@@ -1,5 +1,5 @@
 require("mongoose");
-const bcrypt = require("bcrypt")
+const bcrypt = require("bcryptjs")
 const users = require("../models/userModels");
 const {sendEmailNotification} = require("../mails/emailServices")
 
